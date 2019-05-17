@@ -1,0 +1,37 @@
+.node {
+  cursor: pointer;
+  circle {
+    fill: #aae;
+    stroke-width: 2px;
+    stroke: steelblue;
+  }
+  text {
+    font: 12px sans-serif;
+    fill: #000;
+  }
+  rect {
+    fill: transparent;
+    stroke-width: 2px;
+    rx: 5px;
+    ry: 5px;
+  }
+ }
+ 
+ .link {
+ fill: none;
+ stroke: #ccc;
+ stroke-width: 2px;
+ }
+ 
+ .tree {
+ margin-bottom: 10px;
+ overflow: auto;
+ border: '1px solid red'
+ }
+ 
+ svg text {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+ }

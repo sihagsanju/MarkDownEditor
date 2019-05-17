@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Appbar> Appbar component contains Appbar 1`] = `
+<div>
+  <AppBar
+    color="default"
+    iconElementLeft={
+      <Icon
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "white",
+            "marginLeft": 30,
+            "marginTop": 13,
+          }
+        }
+      />
+    }
+    position="static"
+    showMenuIconButton={true}
+    style={
+      Object {
+        "position": "fixed",
+      }
+    }
+    title={
+      <Link
+        replace={false}
+        style={
+          Object {
+            "color": "white",
+            "fontSize": "18px",
+            "textDecoration": "none",
+          }
+        }
+        to="/home"
+      >
+        Quizetency
+      </Link>
+    }
+    zDepth={1}
+  >
+    <Avatar
+      icon={<Icon />}
+      onClick={[Function]}
+      size={40}
+      style={
+        Object {
+          "marginTop": "10px",
+        }
+      }
+    />
+    <Popover
+      anchorOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "bottom",
+        }
+      }
+      animated={true}
+      autoCloseWhenOffScreen={true}
+      canAutoPosition={true}
+      onRequestClose={[Function]}
+      open={false}
+      scrollableContainer="window"
+      style={
+        Object {
+          "overflowY": "auto",
+        }
+      }
+      targetOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "top",
+        }
+      }
+      useLayerForClickAway={true}
+      zDepth={1}
+    >
+      <Menu
+        autoWidth={true}
+        className="menu"
+        desktop={false}
+        disableAutoFocus={false}
+        initiallyKeyboardFocused={false}
+        maxHeight={null}
+        multiple={false}
+        onChange={[Function]}
+        onEscKeyDown={[Function]}
+        onItemClick={[Function]}
+        onKeyDown={[Function]}
+      >
+        <Link
+          replace={false}
+          style={
+            Object {
+              "color": "black",
+              "textDecoration": "none",
+            }
+          }
+          to="/myQuizzes"
+        >
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+          >
+            My Quizzes
+          </MenuItem>
+        </Link>
+        <Divider
+          inset={false}
+        />
+        <Link
+          replace={false}
+          style={
+            Object {
+              "color": "black",
+              "textDecoration": "none",
+            }
+          }
+          to="/"
+        >
+          <MenuItem
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+            checked={false}
+            desktop={false}
+            disabled={false}
+            focusState="none"
+            insetChildren={false}
+            targetOrigin={
+              Object {
+                "horizontal": "left",
+                "vertical": "top",
+              }
+            }
+          >
+            Sign Out
+          </MenuItem>
+        </Link>
+      </Menu>
+    </Popover>
+  </AppBar>
+  <Drawer
+    disableSwipeToOpen={false}
+    docked={false}
+    onRequestChange={[Function]}
+    open={false}
+    openSecondary={false}
+    swipeAreaWidth={30}
+    width={200}
+    zDepth={2}
+  >
+    <div
+      style={
+        Object {
+          "color": "white",
+          "height": 140,
+          "position": "relative",
+          "width": 200,
+        }
+      }
+    >
+      <img
+        src="images/Blooms-Taxonomy.png"
+        style={
+          Object {
+            "height": 140,
+            "width": 200,
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "bottom": "2px",
+            "left": "5px",
+            "position": "absolute",
+          }
+        }
+      >
+        <b
+          style={
+            Object {
+              "fontSize": "18px",
+            }
+          }
+        >
+          Quizetency
+        </b>
+        <div>
+          v0.0.1
+        </div>
+      </div>
+    </div>
+    <Link
+      replace={false}
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      to="/howtoplay"
+    >
+       
+      <MenuItem
+        anchorOrigin={
+          Object {
+            "horizontal": "right",
+            "vertical": "top",
+          }
+        }
+        checked={false}
+        desktop={false}
+        disabled={false}
+        focusState="none"
+        insetChildren={false}
+        onClick={[Function]}
+        targetOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "top",
+          }
+        }
+      >
+        How To Play
+      </MenuItem>
+    </Link>
+    <Divider
+      inset={false}
+    />
+    <Link
+      replace={false}
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      to="/aboutus"
+    >
+      <MenuItem
+        anchorOrigin={
+          Object {
+            "horizontal": "right",
+            "vertical": "top",
+          }
+        }
+        checked={false}
+        desktop={false}
+        disabled={false}
+        focusState="none"
+        insetChildren={false}
+        onClick={[Function]}
+        targetOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "top",
+          }
+        }
+      >
+        About Us
+      </MenuItem>
+    </Link>
+  </Drawer>
+</div>
+`;
